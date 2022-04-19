@@ -1,0 +1,95 @@
+.fundo{
+background-image: url('../img/teste.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.top__input{
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+    .topo{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    /*background: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 1px 1px  rgb(83, 77, 77);*/
+    text-align: center;   
+    padding-top: 15px ;
+}
+ul{
+    margin:0;
+    padding:20px 10px;
+    list-style-type: none ;
+}
+ul a{
+    width: 200px;
+    height:40px;   
+    border: 1px solid #5b6178;
+    display: block;
+    color: #000;
+    background: url('../img/menu.png') no-repeat left bottom;
+    text-indent:40px ;
+    line-height:40px;
+    text-decoration: none;
+}
+a:hover{
+    background-position: right bottom;
+}
+
+#container{  
+    font-family: "Comic Sans MS", cursive, sans-serif;    
+    background: rgb(253, 253, 253);
+    border-radius: 12px;
+    box-shadow: 1px 1px  rgb(83, 77, 77);  
+    text-align: center;  
+    margin: 120px auto 25px ;
+    height: 370px;
+    width: 300px;
+}
+
+.tam{
+    margin-top:30px;
+    margin-bottom:15px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+
+.box{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 1px 1px  rgb(83, 77, 77);
+    justify-content: left;
+    text-align: center;
+    margin: 120px auto 25px ;
+    padding:1px;
+    height: 370px;
+    width: 300px; 
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #dfa60c 5%, #f0e004 100%);
+	background-color:#e4b211;
+	border-radius:6px;
+	border:1px solid #a7d2ee;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f8e806 5%, #eecb05 100%);
+	background-color:#5fc9f0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
