@@ -1,77 +1,62 @@
-.fundo{
-background-image: url('../img/teste.jpg');
-background-repeat: no-repeat;
-background-attachment: fixed;
-}
-.top__input{
-    text-align: center;
-    border-radius: 10px;
-    border: none;
+
+
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+	border: 1px solid #000;	
+} 
+
+.flexivel{
+	display: flex;	
 }
 
-    .topo{
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    /*background: rgb(255, 255, 255);
-    border-radius: 12px;
-    box-shadow: 1px 1px  rgb(83, 77, 77);*/
-    text-align: center;   
-    padding-top: 15px ;
+.horizontal{
+	flex-direction: row;
 }
-ul{
-    margin:0;
-    padding:20px 10px;
-    list-style-type: none ;
-}
-ul a{
-    width: 200px;
-    height:40px;   
-    border: 1px solid #5b6178;
-    display: block;
-    color: #000;
-    background: url('../img/menu.png') no-repeat left bottom;
-    text-indent:40px ;
-    line-height:40px;
-    text-decoration: none;
-}
-a:hover{
-    background-position: right bottom;
+.horizontal__inverte{
+	flex-direction: row-reverse;
 }
 
-#container{  
-    font-family: "Comic Sans MS", cursive, sans-serif;    
-    background: rgb(253, 253, 253);
-    border-radius: 12px;
-    box-shadow: 1px 1px  rgb(83, 77, 77);  
-    text-align: center;  
-    margin: 120px auto 25px ;
-    height: 370px;
-    width: 300px;
+.vertical{
+	flex-direction: column;
 }
 
-.tam{
-    margin-top:30px;
-    margin-bottom:15px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    text-align: center;
-    font-size: 32px;
+.vertical__inverte{
+	flex-direction: column-reverse;
 }
 
-.box{
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    background: rgb(255, 255, 255);
-    border-radius: 12px;
-    box-shadow: 1px 1px  rgb(83, 77, 77);
-    justify-content: left;
-    text-align: center;
-    margin: 120px auto 25px ;
-    padding:1px;
-    height: 370px;
-    width: 300px; 
+.quebra__linha{
+	flex-wrap: wrap;/*quebra de linha se não couber no main axe*/
+	/*flex-wrap: nowrap; não quebra linha*/
+	/*flex-wrap: wrap-reverse; inverte o main axe e quebra a linha*/
+}
+.horizontalComQuebra{
+	flex-flow: row wrap;
+}
+.alinhamento__axes{
+	justify-content: space-between;
+}
+
+
+
+.item{
+	margin: 5px;
+	padding: 5px;
+	background: #447;
+	text-align: center;
+	font-size:1em;
+	color: #fff;
+}
+
+body{
+	font-family:arial,sans-serif;
+	color: #000;
 }
 
 .myButton {
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
-	background:linear-gradient(to bottom, #dfa60c 5%, #f0e004 100%);
+	background:linear-gradient(to top, #dfa60c 5%, #f0e004 100%);
 	background-color:#e4b211;
 	border-radius:6px;
 	border:1px solid #a7d2ee;
